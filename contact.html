@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Bali Futures Forum</title>
+  <meta name="description" content="Get in touch about the Bali Futures Forum, 20 July 2026.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Bali Futures Forum</a>
+    <ul class="nav-links">
+      <li><a href="programme.html">Programme</a></li>
+      <li><a href="forum.html">The Forum</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <img class="page-header-img" src="images/gateway.png" alt="Mystical light through a Balinese gateway">
+    <div class="page-header-overlay"></div>
+    <div class="page-header-content">
+      <div class="section">
+        <p class="label">Bali Futures Forum</p>
+        <h1>Get in Touch</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact form -->
+  <div class="content-band">
+    <div class="section">
+      <div class="contact-layout">
+
+        <div class="contact-intro">
+          <p class="label" style="margin-bottom: 1rem;">Contact</p>
+          <h2>Think you should<br><em>be in the room?</em></h2>
+          <p>The Bali Futures Forum is invite only. If this sounds like your kind of conversation, we'd like to hear from you.</p>
+          <p>Tell us a little about who you are and why you're interested. We'll be in touch.</p>
+
+          <div style="margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.4rem;">
+            <div>
+              <div class="detail-label" style="color: #7A6E62;">Date</div>
+              <div style="font-family: var(--serif); font-size: 1rem; color: var(--ink); font-style: italic; margin-top: 0.25rem;">Monday, 20 July 2026</div>
+            </div>
+            <div>
+              <div class="detail-label" style="color: #7A6E62;">Location</div>
+              <div style="font-family: var(--serif); font-size: 1rem; color: var(--ink); font-style: italic; margin-top: 0.25rem;">Uluwatu / Pecatu<br>South Bali, Indonesia</div>
+            </div>
+            <div>
+              <div class="detail-label" style="color: #7A6E62;">Format</div>
+              <div style="font-family: var(--serif); font-size: 1rem; color: var(--ink); font-style: italic; margin-top: 0.25rem;">Unconference — Invite Only</div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/mjgpglbk" method="POST">
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="organisation">Organisation</label>
+              <input type="text" id="organisation" name="organisation" placeholder="Where you work">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us who you are and why you're interested. What would you bring to the conversation?"></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">Send Message</button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Full-bleed image -->
+  <div class="img-full">
+    <img src="images/terraces-dawn.png" alt="Balinese rice terraces at dawn">
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Bali Futures Forum &mdash; 20 July 2026, Uluwatu, South Bali</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
